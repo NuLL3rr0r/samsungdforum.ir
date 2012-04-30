@@ -1,0 +1,411 @@
+@charset "utf-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	background: #fff;
+}
+
+.dvNoScript {
+	font: normal normal normal 12px/1.5em Georgia, 'Times New Roman', Times, serif, Tahoma, arial, sans-serif, Geneva, Verdana;
+	letter-spacing: 1px;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #F00;
+	background: #FFA4A4;
+}
+
+a:link {
+	text-decoration: none;
+	color: #00F;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #00F;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #00F;
+}
+
+a:active {
+	text-decoration: none;
+	color: #00F;
+}
+
+.link {
+	text-decoration: none;
+	cursor: pointer;
+	color: #00F;
+}
+
+.newslink {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.boldText {
+	font-weight: bold;
+	color: #203070;
+}
+
+.boldTextErr {
+	font-weight: bold;
+	color: #900;
+}
+
+.captcha {
+	display: block;
+	margin: 10px auto;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+
+.form {
+	margin: 0 auto;
+    line-height: normal !important;
+}
+
+.form * {
+	overflow: visible;
+}
+
+.form td {
+	vertical-align: middle;
+}
+
+form {
+    height: 10px !important;
+}
+
+.form input, .form select  {
+	overflow: visible;
+	height: auto !important;
+}
+
+.tbl {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 17px;
+}
+
+.tbl td {
+	padding: 5px 10px;
+	border: 1px solid #000;
+	text-align: left;
+}
+
+.tblHeader {
+	text-align: center !important;
+	font-weight: bolder;
+}
+
+.tblButton {
+	font-family: Tahoma, 'Verdana Sans';
+	font-weight: normal;
+	padding: 1px 9px;
+}
+
+input, textarea, select {
+	padding: 2px 5px;
+	background: #D8D8D8 url(bginput.png) repeat-x;
+	border: 1px solid #666;
+	font: bold 1em Tahoma, 'Verdana Sans';
+	color: #2D2D2B;
+	overflow: visible;
+	border-radius: 3px;
+}
+
+.form textarea {
+	height: 85px;
+	resize: none;
+	overflow: visible;
+	background: #D8D8D8 url(bginput.png) repeat-x center bottom !important;
+}
+
+.form .Wt-edit-emptyText {
+    color: gray !important;
+}
+
+.formButton {
+	font-family: Tahoma, 'Verdana Sans';
+	display: block-inline;
+	margin: 15px auto;
+	font-weight: bold;
+	width: 100px;
+	height: 25px;
+}
+
+.form .boldText, .form .boldTextErr {
+	display: block;
+	text-align: center;
+}
+
+textarea {
+    resize: none;
+	background: #D8D8D8 url(bginput.png) repeat-x center bottom !important;
+}
+
+.Wt-invalid {
+	border: 2px solid #900 !important;
+	background: none;
+}
+
+textarea.Wt-invalid {
+	border: 2px solid #900 !important;
+	background: none;
+}
+
+.Wt-dialog, .Wt-outset, .Wt-msgbox-buttons {
+	font-family: Tahoma, 'Verdana Sans';
+}
+
+.Wt-dialog .titlebar {
+	text-align: center !important;
+}
+
+.dialogButton {
+	font-family: Tahoma, 'Verdana Sans';
+	display: inline-block;
+	margin: 15px 7px;
+	padding: 0 4px 0 4px;
+	font-weight: bold;
+	min-width: 100px;
+	height: 25px;
+}
+
+fieldset {
+	border-radius: 4px;
+}
+
+#dvHeader {
+	background: #0C5B9E;
+	width: 100%;
+}
+
+#dvHeaderShadow {
+	width: 100%;
+	height: 14px;
+	background: url(bg_headershadow.png) repeat-x;
+}
+
+#dvHeaderInner {
+	position: relative;
+	margin: 0 auto;
+	width: 950px;
+	height: 128px;
+}
+
+#dvBody {
+	background: #fff;
+	width: 100%;
+}
+
+#dvBodyInner {
+	position: relative;
+	margin: 0 auto;
+	width: 950px;
+	min-height: 915px;
+}
+
+#dvFooter {
+	background: #F1F1F1;
+	width: 100%;
+}
+
+#dvFooterShadow {
+	width: 100%;
+	height: 9px;
+	background: url(bg_footershadow.png) repeat-x;
+}
+
+#dvFooterInner {
+	position: relative;
+	margin: 0 auto;
+	width: 950px;
+}
+
+#dvLogoBar {
+	position: relative;
+	height: 72px;
+}
+
+#dvDForumLogo {
+	position: relative;
+    width: 203px;
+	line-height: 72px;
+}
+
+#dvDForumLogo img {
+    margin: auto;
+    vertical-align: middle;
+}
+
+#dvOtherLogo {
+	position: relative;
+    width: auto;
+	line-height: 72px;
+}
+
+#dvOtherLogo img {
+    margin: 0 8px;
+    vertical-align: middle;
+}
+
+#dvUtilsBar {
+	font-weight: bold;
+	color: #203070;
+	height: 34px;
+}
+
+#dvLogin {
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 7px;
+    margin: 0 20px;
+}
+
+#dvLogin .link {
+	font-weight: bold;
+	color: #203070;
+}
+
+#dvSearch {
+    margin: 0;
+    padding: 0;
+}
+
+#dvLang {
+    margin: 0 20px;
+    padding: 0;
+}
+
+#dvLang a {
+	text-decoration: none;
+	border: none;
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+#dvMenuBar {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	height: 20px;
+	margin-top: 34px;
+	background: #084282;
+}
+
+#dvContents {
+}
+
+#dvMainContents {
+}
+
+#dvContactFormWrapper {
+	text-align: center;
+}
+
+#dvSitemap {
+}
+
+#dvCopyright {
+	line-height: 64px;
+}
+
+#dvCopyright * {
+    margin: auto;
+    vertical-align: middle;
+    color: #999;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+#dvSearchResults {
+    padding: 32px 16px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#dvSearchResults a {
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+#dvNews {
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+#dvNews #dvNewsTitleBar {
+	position: relative;
+	margin: 0 auto;
+	padding: 4px 16px;
+	height: 20px;
+	background: #084282;
+	color: #fff;
+	font-weight: bolder;
+	line-height: 21px;
+	font-size: 13px;
+	vertical-align: middle;
+	border-radius: 4px;
+}
+
+#dvNewsCollection {
+    padding-top: 16px;
+}
+
+#dvOlderNewsCollection {
+    padding-top: 16px;
+}
+
+#dvNewsRow {
+    margin-bottom: 8px;
+}
+
+#dvNewsHeader {
+    background: #b8c5d4;
+    color: #000;
+    padding: 4px 0;
+    font-weight: bolder;
+}
+
+#dvNewsDate {
+    min-width: 75px;
+    padding: 0 16px;
+    letter-spacing: 2px;
+}
+
+#dvNewsTitle {
+    width: auto;
+}
+
+#dvNewsSummary {
+    clear: both;
+    float: none;
+    background: #e7e7e7;
+    color: #333;
+    padding: 12px 16px;
+    padding-bottom: 32px;
+	border-radius: 0 0 4px 4px;
+}
+
+#dvNewsComplete {
+    padding: 32px 32px;
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/* Hack for 3.2.3-rc1 */
+.form .fileupload, .form .fileupload * {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+    border: 0 !important;
+}
+
+

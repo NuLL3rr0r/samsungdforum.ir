@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+#taghvimScript {
+    direction: rtl;
+    margin-top: 20px;
+    min-height: 410px;
+}
+
+#showHour {
+    width: 260px;
+    position: absolute;
+    top: 50px;
+    left: 50px;z-index: 5;
+}
+
+#numMo, #selectedDay, #selectedHour {
+    display: none;
+}
+
+#dvSelectedDate {
+    padding: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+	font-weight: bold;
+	color: #203070;    
+}
+
+

@@ -1,0 +1,409 @@
+@charset "UTF-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #C8C8C8;
+	font-family: 'Bitstream Vera Sans', arial, helvetica, sans-serif;
+	font-size: 13px;
+}
+
+textarea {
+	resize: none;
+}
+
+.dvNoScript {
+	font: normal normal normal 12px/1.5em Georgia, 'Times New Roman', Times, serif, Tahoma, arial, sans-serif, Geneva, Verdana;
+	letter-spacing: 1px;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid #F00;
+	background: #FFA4A4;
+}
+
+a:link {
+	text-decoration: none;
+	color: #00F;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #00F;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #00F;
+}
+
+a:active {
+	text-decoration: none;
+	color: #00F;
+}
+
+.link {
+	text-decoration: none;
+	cursor: pointer;
+	color: #00F;
+}
+
+.boldText {
+	font-weight: bold;
+	color: #203070;
+}
+
+.boldTextErr {
+	font-weight: bold;
+	color: #900;
+}
+
+.captcha {
+	display: block;
+	margin: 10px auto;
+	border: 1px solid #000;
+}
+
+.form {
+	margin: 0 auto;
+    line-height: normal !important;
+}
+
+.form * {
+	overflow: visible;
+}
+
+.form td {
+	vertical-align: middle;
+}
+
+.form input, .form select  {
+	overflow: visible;
+	height: auto !important;
+}
+
+.form input, .form textarea {
+	padding: 2px 5px;
+	background: #D8D8D8 url(bginput.png) repeat-x;
+	border: 1px solid #666;
+	font: bold 1em Tahoma, 'Verdana Sans';
+	color: #2D2D2B;
+	overflow: visible;
+}
+
+.form textarea {
+	height: 85px;
+	resize: none;
+	overflow: visible;
+	background: #D8D8D8 url(bginput.png) repeat-x center bottom !important;
+}
+
+.form .Wt-edit-emptyText {
+    color: gray !important;
+}
+
+.formButton {
+	font-family: Tahoma, 'Verdana Sans';
+	display: block;
+	margin: 15px auto;
+	font-weight: bold;
+	width: 100px;
+	height: 25px;
+}
+
+.formButtonNoWidth {
+	font-family: Tahoma, 'Verdana Sans';
+	display: block;
+	margin: 15px auto;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	font-weight: bold;
+	width: auto;
+	height: 25px;
+}
+
+.form .boldText, .form .boldTextErr {
+	display: block;
+	text-align: center;
+}
+
+.tbl {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 17px;
+}
+
+.tbl td {
+	padding: 5px 10px;
+	border: 1px solid #000;
+	text-align: left;
+}
+
+.tblHeader {
+	text-align: center !important;
+	font-weight: bolder;
+}
+
+.tblButton {
+	font-family: Tahoma, 'Verdana Sans';
+	font-weight: normal;
+	padding: 1px 9px;
+}
+
+.Wt-invalid {
+	background: #F79A9A url(bginvalidinput.png) !important;
+	border: 1px solid #900 !important;
+}
+
+textarea.Wt-invalid {
+	background: #F79A9A url(bginvalidinput.png) repeat-x center bottom !important;
+	border: 1px solid #900 !important;
+}
+
+.Wt-dialog, .Wt-outset, .Wt-msgbox-buttons {
+	font-family: Tahoma, 'Verdana Sans';
+}
+
+.Wt-dialog .titlebar {
+	text-align: center !important;
+}
+
+.Wt-tree {
+    background: #fff;
+}
+
+.dialogButton {
+	font-family: Tahoma, 'Verdana Sans';
+	display: inline-block;
+	margin: 15px 7px;
+	padding: 0 4px 0 4px;
+	font-weight: bold;
+	min-width: 100px;
+	height: 25px;
+}
+
+.editorButton {
+	font-family: Tahoma, 'Verdana Sans';
+	display: inline-block;
+	margin: 15px 7px;
+	padding: 0 4px 0 4px;
+	font-weight: bold;
+	min-width: 100px;
+	height: 25px;
+}
+
+#dvLangBar {
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	direction: ltr;
+}
+
+#dvLangBar a {
+	text-decoration: none;
+	border: none;
+}
+
+#dvLangBar a img {
+	border: none;
+	width: 24px;
+	height: 24px;
+}
+
+#dvLogin {
+	position: relative;
+	margin: 0 auto;
+	padding: 25px;
+	border: 1px solid #666;
+	width: 300px;
+	background: url(bgstoplogin.png) no-repeat top left;
+	letter-spacing: 1px;
+	text-align: center;
+	border-radius: 9px;
+	margin-top: 99px;
+}
+
+#dvHeader {
+	position: relative;
+	background: #515151 url(bgheadercms.png) repeat-x;
+	height: 68px;
+	color: #FFF;
+}
+
+#dvLogo {
+	background: url(bglogocms.png) no-repeat left center;
+	height: 68px;
+}
+
+#dvBody {
+	min-width: 940px;
+	border-bottom: 1px solid #515151;
+	background: #454545;
+    direction: ltr;
+}
+
+#dvSideWrapper {
+	position: relative;
+	float: right;
+	min-width: 188px;
+	width: 20%;
+	color: #C7C7C7;
+}
+
+#dvContentsWrapper {
+	position: relative;
+	width: 80%;
+	min-height: 865px;
+	background: #C8C8C8 url(bgcornercms.png) no-repeat top right;
+}
+
+#dvCopyright {
+	clear: both;
+	float: none;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #606090;
+	padding: 4px;
+	letter-spacing: 2px;
+}
+
+#dvSide {
+	padding: 25px 15px;
+}
+
+#dvMenu {
+	margin-bottom: 50px;
+}
+
+#dvMenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, 'Bitstream Vera Sans', sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFF;
+	letter-spacing: 1px;
+}
+
+#dvMenu ul li {
+	border-bottom: solid 1px #C7C7C7;
+}
+
+#dvMenu ul li a {
+	color: #C7C7C7;
+	display: block;
+	padding: 9px 0 9px 9px;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+#dvMenu ul li a:hover {
+	color: #FFF;
+}
+
+#dvMenu .itemselected {
+	color: #FFF;
+}
+
+#dvMenu li:last-child {
+	border-bottom: none;
+}
+
+#dvContents {
+	text-align: justify;
+	padding: 35px 55px;
+	font-weight: bold;
+	color: #203070;
+}
+
+#dvMainContents {
+	text-align: justify;
+	line-height: 33px;
+	text-align: center;
+}
+
+#SysMon {
+    direction: ltr !important;
+}
+
+#dvSysMonMachineInfo {
+	text-align: center;
+}
+
+#dvSysMonDiskInfo, #dvSysMonNetInfo {
+    direction: ltr;
+	text-align: center;
+}
+
+#dvSysMonDiskInfo .tbl td, #dvSysMonNetInfo .tbl td {
+	text-align: center !important;
+}
+
+#CmsPages {
+    direction: ltr;
+}
+
+#CmsPages #dvPagesTree {
+	position: relative;
+	min-width: 150px;
+	width: 20%;
+	height: 100px;
+}
+
+#CmsPages #dvPageEditor {
+	position: relative;
+	width: 80%;
+	height: 200px;
+}
+
+#CmsPages #dvPageEditor .tipsBox {
+	width: 99% !important;
+	height: 112px !important;
+	resize: none;
+	margin: 11px 0;
+}
+
+#CmsPages #dvPageEditor #dvPageEditorButtons {
+	position: relative;
+    clear: both;
+    float: none;
+}
+
+#dvExtraInfoEditor {
+	position: relative;
+	margin: 0 auto;
+	width: 550px;
+}
+
+#CmsUsers #dvSendMessage {
+	position: relative;
+	margin: 0 auto;
+	width: 550px;
+}
+
+#CmsUsers #dvSendMessage input, #CmsUsers #dvSendMessage textarea {
+	padding: 2px 5px;
+	background: #D8D8D8 url(bginput.png) repeat-x;
+	border: 1px solid #666;
+	font: bold 1em Tahoma, 'Verdana Sans';
+	color: #2D2D2B;
+	overflow: visible;
+}
+
+#CmsUsers #dvSendMessage textarea {
+	background: #D8D8D8 url(bginput.png) repeat-x center bottom !important;
+}
+
+#CmsWelcome {
+    direction: ltr;
+}
+
+#CmsWelcome table, #CmsWelcome td, #CmsWelcome tr, #CmsWelcome td *, #CmsWelcome tr * {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+
+

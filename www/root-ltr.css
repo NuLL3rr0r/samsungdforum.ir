@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+
+html, body {
+	font-family: 'Bitstream Vera Sans', arial, helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.dvNoScript {
+	direction: ltr;
+}
+
+.form table td {
+	text-align: left !important;
+}
+
+.tbl td {
+	text-align: left;
+}
+
+.Wt-dialog, .Wt-outset, .Wt-msgbox-buttons {
+	direction: ltr;
+	text-align: right;
+}
+
+.Wt-popupmenu .Wt-item, .Wt-popupmenu .Wt-selected, .Wt-popupmenu .Wt-selected, .Wt-popupmenu .Wt-separator {
+    direction: ltr;
+    text-align: left;
+}
+
+#dvLogin {
+	font: bold 1em 'Comic Sans MS';
+}
+
+#dvSideWrapper {
+	direction: ltr;
+}
+
+#dvContentsWrapper {
+	direction: ltr;
+}
+
+#CmsPages #dvPagesTree {
+    float: left;
+	direction: ltr;
+}
+
+#CmsPages #dvPageEditor {
+    float: right;
+}
+
+
+

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.ddsmoothmenu {
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Tahoma;
+    letter-spacing: 0;
+}
+
+.ddsmoothmenu > ul > li {
+    float: right !important;
+}
+
+.ddsmoothmenu ul li ul {
+    left: auto !important;
+}
+
+.leftarrowclass {
+    position: absolute;
+    top: 6px;
+    left: 5px !important;
+}
+
+.ddsmoothmenu ul li ul li a {
+	font-size: 11px;
+}
+
+.ddsmoothmenu ul li ul li ul {
+    left: -171px !important;
+}
+
+.ddsmoothmenu ul li:first-child {
+	border-right: none;
+}
+
+

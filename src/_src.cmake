@@ -1,0 +1,46 @@
+SET ( ROOT_SOURCE_FILES
+    main.cpp
+    appointment.cpp
+    appsubmit.cpp
+    base.cpp
+    basewidget.cpp
+    captcha.cpp
+    cdate.cpp
+    cgienv.cpp
+    cgiroot.cpp
+    cimage.cpp
+    cmsappointments.cpp
+    cmsapps.cpp
+    cmscontacts.cpp
+    cmsideas.cpp
+    cmsnews.cpp
+    cmspages.cpp
+    cmspagespageeditor.cpp
+    cmspagestreenode.cpp
+    cmspwdemail.cpp
+    cmsusers.cpp
+    cmswelcome.cpp
+    contactus.cpp
+    crypto.cpp
+    db.cpp
+    dbtables.cpp
+    div.cpp
+    exception.cpp
+    fileuploadprogressdialog.cpp
+    home.cpp
+    ideasubmit.cpp
+    lang.cpp
+    log.hpp
+    mailer.cpp
+    math.cpp
+    myapps.cpp
+    myideas.cpp
+    news.cpp
+    rootcms.cpp
+    rootlogin.cpp
+    search.cpp
+    sysmon.cpp
+    system.cpp
+)
+
+

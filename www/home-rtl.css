@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.dvNoScript {
+	direction: rtl;
+	font-family: Tahoma;
+}
+
+.tbl td {
+	text-align: right;
+}
+
+.Wt-msgbox-buttons {
+	float: left;
+}
+
+#dvDialogButtons {
+    float: left;
+}
+
+#dvDForumLogo {
+    float: left;
+}
+
+#dvOtherLogo {
+    float: right;
+}
+
+#dvLogin {
+    float: left;
+}
+
+#dvSearch {
+    float: left;
+}
+
+#dvLang {
+    float: left;
+    direction: ltr;
+    margin-left: 0;
+}
+
+#dvNewsDate {
+    float: right;
+}
+
+

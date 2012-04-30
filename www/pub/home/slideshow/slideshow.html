@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <script src="jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="standalo.css"/>
+        <link rel="stylesheet" type="text/css" href="tabs-sli.css"/>
+    </head>
+    <body>
+        <div class="images">
+            <div>
+                <img src="fa01.jpg"/>
+            </div>
+
+            <div>
+                <img src="fa02.jpg"/>
+            </div>
+
+            <div>
+                <img src="fa03.jpg"/>
+            </div>
+            <div>
+                <img src="fa04.jpg"/>
+            </div>
+            <div>
+                <img src="fa05.jpg"/>
+            </div>
+            <div>
+                <img src="fa06.jpg"/>
+            </div>
+            <div>
+                <img src="fa07.jpg"/>
+            </div>
+            <div>
+                <img src="fa08.jpg"/>
+            </div>
+        </div>
+
+        <div class="slidetabs" style="position: relative;top:-22px;left: 825px;width: 120px;height: 50px;">
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+        <script language="JavaScript">
+            $(function() {
+                $(".slidetabs").tabs(".images > div", {
+                    effect: 'fade',
+                    fadeOutSpeed: "slow",
+                    rotate: true
+                }).slideshow();
+                $(".slidetabs").data("slideshow").play();
+            });
+        </script>
+    </body>
+</html>
