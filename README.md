@@ -1,7 +1,7 @@
 samsungdforum-ir
 ================
 
-The official website for SAMSUNG Smart TV Award event in Iran by Sharif University of Technology and Samsung Electronics Co.
+The official website for SAMSUNG Smart TV Award event in Iran by Sharif University of Technology and Samsung Electronics Co. written in [Wt (Witty) C++ web framework](http://www.webtoolkit.eu/wt) with performance in mind.
 
 
 ## License
